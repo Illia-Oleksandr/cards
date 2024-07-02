@@ -21,10 +21,15 @@ body {
 }
 
 #card-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
     gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
     justify-content: center;
+    /* Цей стиль центрує картки горизонтально */
+    text-align: left;
+    /* Цей стиль зміщує текст у внутрішніх елементах вліво */
 }
 
 .card {
@@ -39,6 +44,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s;
+    margin: 0 auto;
+    /* Цей стиль вирівнює картки по центру в контейнері */
+}
+
+.card.clicked {
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
 }
 
 .card:hover {
