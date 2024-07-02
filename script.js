@@ -1,24 +1,25 @@
+
 const questions = [
-    "What are you going to do next weekend?",
+    "What are you going to do at the next weekend?",
     "Do you ride a bicycle?",
     "What kind of food do you like?",
-    "How do you like to spend Holidays?",
-    "What you usually do in your free time?",
-    "What kind of music do you like?",
+    "How often do you drink coffee and tea?",
+    "What do you usually do in your free time?",
+    "How often do you warm up?",
     "What is your favorite song?",
-    "Do you often reed books?",
+    "Do you often reed news?",
     "What is your favorite book?",
     "What kind of activities do you like?",
     "Do you want have pets?",
-    "What countries you didn't visit in past, but want visit in next future?",
+    "What countries you didn't visit in the past, but want visit in the future?",
     "What is your favorite place in this city, this country and in the world?",
     "What is your favorite season and why?",
     "Do you have hobbies?",
     "What is your perfect boyfriend?",
     "What are your goals for the end of this year?",
-    "How often do you buy clothes?",
+    "Do you collect any things?",
     "What skill would you like to aquire?",
-    "How often do you drink coffee?"
+    "How do you usually start your morning?"
 ];
 
 const cardContainer = document.getElementById('card-container');
